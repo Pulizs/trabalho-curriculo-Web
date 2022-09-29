@@ -1,0 +1,39 @@
+<!--Fonte: Inspirado no login de https://www.codehim.com/collections/login-page-in-html-with-css-code/-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cria uma Conta</title>
+  <link rel="stylesheet" href="../login/style.css">
+
+</head>
+
+<body>
+  <script src="../backend/validar usuario.js" defer></script>
+
+  <main id="login-form-wrap">
+    <h2>Crie uma conta</h2>
+    <form id="login-form">
+      <p>
+        <input type="text" id="username" name="username" placeholder="Username" required><i
+          class="validation"><span></span><span></span></i>
+      </p>
+      <p>
+        <input type="password" id="password" name="password" placeholder="Senha" required><i
+          class="validation"><span></span><span></span></i>
+      </p>
+      <p>
+        <input type="submit" id="login" value="Criar Conta">
+      </p>
+    </form>
+    <section id="create-account-wrap">
+      <p>Já tem uma conta? <a href="../login.html">Faça login</a>
+      <p>
+    </section>
+  </main>
+
+</body>
+
+</html>
