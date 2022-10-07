@@ -1,0 +1,60 @@
+body {
+    background-color: #483D8B;
+    margin: none;
+    font-family: 'Audiowide', sans-serif;
+}
+#principal {
+    background-color: #708090;
+    width: 99%;
+    height: 600px;
+    margin: 10px auto;
+    margin-bottom: 0px;
+}
+
+img {
+    margin: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #191970;
+}
+
+.perfis {
+    background-image: linear-gradient(#2F4F4F, #5F9EA0);
+    width: 27%;
+    height: 80%;
+    position: relative;
+    left: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.perfis:hover {
+    width: 40%;
+    cursor: pointer;
+}
+
+#ftPedro {
+    border-radius: 500px;
+    height: 250px;
+}
+
+#ftMat {
+    border-radius: 800px;
+    height: 250px;
+}
+#botao{
+    margin: 5px;
+    background-color: #A9A9A9;
+    border-radius: 10px;
+    border-color: black;
+}
