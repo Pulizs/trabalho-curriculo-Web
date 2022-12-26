@@ -1,6 +1,6 @@
 function curriculoPedro(){
-    window.location.href = "CurriculoPedro.html";
+    window.location.href = "list/CurriculoPedro.html";
 }
 function curriculoMatheus(){
-    window.location.href = "CurriculoMatheus.html";
+    window.location.href = "list/CurriculoMatheus.html";
 }
